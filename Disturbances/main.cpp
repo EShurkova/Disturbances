@@ -65,9 +65,6 @@ int main()
 	TID->init(DIM);
 
 	vector<double> m(DIM);
-	//m[0] = 3.5;
-	//m[1] = 4.5;
-	//m[2] = 200.;
 
 	if (DIM == 2)
 	{
