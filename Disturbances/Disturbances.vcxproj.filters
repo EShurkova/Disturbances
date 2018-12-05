@@ -13,21 +13,45 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Ionosphere">
+      <UniqueIdentifier>{157d76e9-69dc-48d9-9b9b-1018e045a0a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Disturbances">
+      <UniqueIdentifier>{7362a949-df32-436a-8c77-ed86d01956d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GnuPlot">
+      <UniqueIdentifier>{7baf5af2-0e43-4126-a788-879b412c4a22}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="pch.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Ionosphere.h">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Ionosphere</Filter>
+    </ClInclude>
+    <ClInclude Include="Disturbances.h">
+      <Filter>Source Files\Disturbances</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gnuplot.h">
+      <Filter>Source Files\GnuPlot</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="pch.cpp">
+    <ClCompile Include="Ionosphere.cpp">
+      <Filter>Source Files\Ionosphere</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Disturbances.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Disturbances</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gnuplot.cpp">
+      <Filter>Source Files\GnuPlot</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

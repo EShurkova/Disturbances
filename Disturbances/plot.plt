@@ -1,0 +1,1 @@
+splot "output.txt" w l
